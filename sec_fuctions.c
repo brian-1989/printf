@@ -51,6 +51,8 @@ void print_s(va_list s, int *p_c)
 	int i;
 	char *m = va_arg(s, char*);
 
+	if (m == NULL)
+		m = "(nil)";
 	for (i = 0; m[i] != '\0'; i++)
 	{
 		write(1, m + i, 1);
