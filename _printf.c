@@ -20,6 +20,8 @@ int _printf(const char *format, ...)
 
 	va_start(a, format);
 	p_a = &p_b;
+	if (format == NULL)
+		return (0);
 	while (*format != '\0')
 	{
 		while  (*format != '%' && *format != '\0')
