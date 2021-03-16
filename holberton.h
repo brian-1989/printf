@@ -1,21 +1,27 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
+#include <stdarg.h>
+#include <unistd.h>
+#include <stdio.h>
+
 /**
  * struct form - Struct form
  * @s: specifiers
  * @p: The function associated
  */
+
 typedef struct form
 {
 	char *s;
-	int (*p)();
+	void (*p)();
 } form_s;
+
 int _printf(const char *format, ...);
-void _putchar(char c);
-void print_number(int n);
-void print_c(va_list c);
-void print_s(va_list s);
-void print_i(va_list intgr);
+int _putchar(char c);
+int print_number(int n);
+void print_c(va_list c, int *p_c);
+void print_s(va_list s, int *p_c);
+void print_i(va_list intgr, int *p_c);
 
 #endif /* HOLBERTON */
