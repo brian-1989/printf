@@ -1,11 +1,9 @@
 #include "holberton.h"
-
 /**
  * _printf - Receive the parameters of the Main
  * @format: It contains the characters
  * Return: p_a which is the length of the characters
  */
-
 int _printf(const char *format, ...)
 {
 	form_s spec[] = {
@@ -15,40 +13,14 @@ int _printf(const char *format, ...)
 		{"i", print_i},
 		{NULL, NULL},
 	};
-	int i, *p_a, p_b = 0;
+	int l;
 	va_list a;
 
 	va_start(a, format);
-	p_a = &p_b;
 	if (format == NULL)
 		return (0);
-	while (*format != '\0')
-	{
-		while  (*format != '%' && *format != '\0')
-		{
-			write(1, format, 1);
-			p_b++;
-			format++;
-		}
-		if (*format == '\0')
-			break;
-		format++;
-		if (*format == '%')
-		{
-			write(1, format, 1);
-			p_b++;
-		}
-		i = 0;
-		while (spec[i].s != '\0')
-		{
-			if (*format == spec[i].s[0])
-			{
-				spec[i].p(a, p_a);
-			}
-			i++;
-		}
-		format++;
-	}
+	l = form_path(format, spec, a);
 	va_end(a);
-	return (*p_a);
+
+	return (l);
 }
