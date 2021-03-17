@@ -36,11 +36,12 @@ int form_path(const char *format, form_s spec[], va_list a)
 				break;
 			}
 			if (spec[i].s[0] == '1')
-			{
-				spec[i].p();
-				write(1, format, 1);
-				p_b = p_b + 2;
-			}
+				if (*format != '%')
+				{
+					spec[i].p();
+					write(1, format, 1);
+					p_b = p_b + 2;
+				}
 			i++;
 		}
 		format++;
