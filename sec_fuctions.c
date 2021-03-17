@@ -72,7 +72,10 @@ void print_i(va_list intgr, int *p_c)
 	int c;
 	int i = va_arg(intgr, int);
 
-	c = print_number(i) + 1;
+	if (i < 0)
+		c = print_number(i) + 2;
+	else
+		c = print_number(i) + 1;
 	*(p_c) = *p_c + c;
 }
 
