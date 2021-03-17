@@ -20,6 +20,8 @@ int _printf(const char *format, ...)
 	va_start(a, format);
 	if (format == NULL)
 		return (-1);
+	if (format[0] == '%' && format[1] == '\0')
+		return (-1);
 	l = form_path(format, spec, a);
 	va_end(a);
 
