@@ -41,9 +41,9 @@ void print_i(va_list intgr, int *p_c)
 	int i = va_arg(intgr, int);
 
 	if (i < 0)
-		c = print_number(i) + 2;
-	else
 		c = print_number(i) + 1;
+	else
+		c = print_number(i);
 	*(p_c) = *p_c + c;
 }
 
