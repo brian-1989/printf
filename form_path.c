@@ -36,7 +36,8 @@ int form_path(const char *format, form_s spec[], va_list a)
 				break;
 			}
 			if (spec[i].s[0] == '1')
-				spec[i].p();
+				if (*format != '%')
+					spec[i].p();
 			i++;
 		}
 		format++;
