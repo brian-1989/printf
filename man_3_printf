@@ -1,43 +1,86 @@
-.TH _printf Manual
+_printf Manual
 
-.SH NAME
-_printf
+NAME
+		_printf
 
-.SH SYPNOSIS
-Int printf(const char *format, );
+SYPNOSIS
+		int printf(const char *format, );
 
-.SH DESCRIPTION
-The printf function prints to standard output according to what it receives in the format variable in the function argument as shown in the above statement.
-Printf is a variadic function that prints and converts the arguments provided to it taking into account the format specifiers.
+DESCRIPTION
+		The printf function prints to standard output
+		according to what it receives in the format
+		variable in the function argument as shown in
+		the above statement.
+		Printf is a variadic function that prints
+		and converts the arguments provided to it
+		taking into account the format specifiers.
 
-.B String without specifier
-The printf function can be given a string of characters as an argument, which will be printed in the standard output except for the % character, which will be discussed later.
-As long as the character string has no format specifiers and is enclosed in double quotes within the function argument, it will be printed one by one without any conversion.
-When you want to convert an argument according to the format specifier, you must indicate the position where you want to print in the format string by using the % character preceding the specifier.
-For example:
-If you have a variable to which you assigned a number and you want to print it with the printf function, you can do it as follows:
+	String without specifier
+	       The printf function can be given a string
+	       of characters as an argument, which will be
+	       printed in the standard output except for
+	       the % character, which will be discussed later.
+	       As long as the character string has no format
+	       specifiers and is enclosed in double quotes
+	       within the function argument, it will be
+	       printed one by one without any conversion.
+	       When you want to convert an argument
+	       according to the format specifier, you must
+	       indicate the position where you want to print
+	       in the format string by using the % character
+	       preceding the specifier.
+	       For example:
+	       If you have a variable to which you assigned
+	       a number and you want to print it with
+	       the printf function, you can do it as follows:
 
-int number = 16;
-printf(The number: %d is printed.\n, number);
+	       int number = 16;
+	       printf(The number: %d is printed.\n, number);
 
-Note in the example that by using the character '%' accompanied by the character 'd', you are specifying the position where you want to print the variable number in the format string that is before comma, followed by the variable number as argument. This causes the function to print what is in that variable and the following output is obtained:
+	       Note in the example that by using the character
+	       '%' accompanied by the character 'd', you
+	       are specifying the position where you want
+	       to print the variable number in the format
+	       string that is before comma, followed by the
+	       variable number as argument. This causes the
+	       function to print what is in that variable and
+	       the following output is obtained:
 
-The number: 16 is printed.
+	       The number: 16 is printed.
 
-.B Conversion specifiers
-The conversion specifiers are used to tell the function how to print the variables given as arguments, that is, after the comma that separates the format string.
+	 Conversion specifiers 
 
-.B c
-When the 'c' specifier is used, the argument must be of type char or integer and the function converts it to a char character based on the equivalences found in the ascii code.
+	       The conversion specifiers are used to tell
+	       the function how to print the variables given
+	       as arguments, that is, after the comma that
+	       separates the format string.
 
-.B s
-The const char * argument is required to be a pointer to a character array, i.e. a pointer to a string.
+	 c
+	       When the 'c' specifier is used, the argument
+	       must be of type char or integer and the function
+	       converts it to a char character based on the
+	       equivalences found in the ascii code.
 
-.B d, i
-This specifier instructs the function to convert the integer data type given as an argument to signed decimal notation.
-The entire string will be printed without including the null character indicating its termination.
+	 s
+	       The const char * argument is required to be
+	       a pointer to a character array, i.e. a pointer
+	       to a string.
 
-.SH RETURN VALUE
-When the printf function is used and the process is successful, it should return the number of characters it printed, that is, it counts each of the arguments that it converted and did not convert and that were printed.
-If printing is done using printf and the function fails, it will return -1 indicating that it is not being used correctly.
+	 d, i
+	       This specifier instructs the function to convert
+	       the integer data type given as an argument to
+	       signed decimal notation.
+	       The entire string will be printed without including
+	       the null character indicating its termination.
+
+RETURN VALUE
+
+	       When the printf function is used and the process
+	       is successful, it should return the number of
+	       characters it printed, that is, it counts each
+	       of the arguments that it converted and did not
+	       convert and that were printed.
+	       If printing is done using printf and the
+	       function fails, it will return -1 indicating
+	       that it is not being used correctly.
 
