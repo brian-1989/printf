@@ -31,7 +31,12 @@ int form_path(const char *format, form_s spec[], va_list a)
 		while (spec[i].s != '\0')
 		{
 			if (*format == spec[i].s[0])
+			{
 				spec[i].p(a, p_a);
+				break;
+			}
+			if (spec[i].s[0] == '1')
+				spec[i].p();
 			i++;
 		}
 		format++;
