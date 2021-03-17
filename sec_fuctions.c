@@ -52,7 +52,7 @@ void print_s(va_list s, int *p_c)
 	char *m = va_arg(s, char*);
 
 	if (m == NULL)
-		m = "(nil)";
+		m = "(null)";
 	for (i = 0; m[i] != '\0'; i++)
 	{
 		write(1, m + i, 1);
@@ -77,12 +77,11 @@ void print_i(va_list intgr, int *p_c)
 }
 
 /**
- * _putchar - This function prints a character.
- * @c: The character to print.
- * Return: The character printed.
+ * print_p - This function prints a percent sign.
+ * Return: Nothing.
  */
 
-int _putchar(char c)
+void print_p(void)
 {
-	return (write(1, &c, 1));
+	_putchar('%');
 }

@@ -11,6 +11,7 @@ int _printf(const char *format, ...)
 		{"s", print_s},
 		{"d", print_i},
 		{"i", print_i},
+		{"1", print_p},
 		{NULL, NULL},
 	};
 	int l;
@@ -18,7 +19,7 @@ int _printf(const char *format, ...)
 
 	va_start(a, format);
 	if (format == NULL)
-		return (0);
+		return (-1);
 	l = form_path(format, spec, a);
 	va_end(a);
 
