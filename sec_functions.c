@@ -8,7 +8,7 @@
 
 int print_number(int n)
 {
-	int c = 0;
+	int i = 0;
 
 	if (n < 0)
 	{
@@ -17,10 +17,15 @@ int print_number(int n)
 	}
 	if ((n / 10) != 0)
 	{
-		c = 1 + print_number(n / 10);
+		print_number(n / 10);
 	}
 	_putchar((n % 10) + '0');
-	return (c);
+	while (n > 0)
+	{
+		n = n / 10;
+		i++;
+	}
+	return (i);
 }
 
 /**
