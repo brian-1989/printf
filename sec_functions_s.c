@@ -5,9 +5,9 @@
  * Return: Nothing.
  */
 
-void print_p()
+void print_p(void)
 {
-	write (1, "%", 1);
+	write(1, "%", 1);
 }
 /**
  * print_c - This function prints a character.

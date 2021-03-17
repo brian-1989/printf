@@ -24,7 +24,7 @@ int print_number(unsigned int n);
 void print_c(va_list c, int *p_c);
 void print_s(va_list s, int *p_c);
 void print_i(va_list intgr, int *p_c);
-void print_p();
+void print_p(void);
 int form_path(const char *format, form_s *, va_list a);
 
 #endif /* HOLBERTON */

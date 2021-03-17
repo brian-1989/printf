@@ -40,7 +40,7 @@ int form_path(const char *format, form_s spec[], va_list a)
 				spec[i].p();
 				write(1, format, 1);
 				p_b = p_b + 2;
-			}	
+			}
 			i++;
 		}
 		format++;
