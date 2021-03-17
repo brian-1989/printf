@@ -20,7 +20,7 @@ typedef struct form
 
 int _printf(const char *format, ...);
 int _putchar(char c);
-int print_number(int n);
+int print_number(unsigned int n);
 void print_c(va_list c, int *p_c);
 void print_s(va_list s, int *p_c);
 void print_i(va_list intgr, int *p_c);
