@@ -1,1 +1,90 @@
-0x11. C - printf
+# _Printf Function!
+![enter image description here](https://www.holbertonschool.com/holberton-logo.png)
+
+## What the project does
+The function _printf used to print a certain type of data, using format specifiers, and is displayed on the screen.
+
+
+
+## Why the project is useful
+Because step by step will be demonstrated the functionality of the _printf function, how the function prints on the screen, the different types of formats, which the user can enter.
+
+## How users can get started with the project
+Users can start using the repository, following these steps:
+
+ - Step 1: Closing the respiking on your computer, it is made of the sugute manner:
+ 
+`git clone https://github.com/mellab/printf.git `
+ 
+ - Step 2: When you get the files that are in the repository, which are the form_path.c,  _printf.c, sec_functions.c, sec_functions_s.c and holberton.h, each of these files will have its function in specific in which it is explained with a FlowChar:
+  1. form_path.c:
+      - <a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=form_path#R7V1Zl5s4Fv4t8%2BAz6ZxTPgghlsfUku701KQzJ92T5KmObGSbDgYP4CpXfv1IIBYtLlML4ODKUkFCAnSv7ncXXSkTeLHe%2FZrgzerfsU%2FCiWn4uwm8nJimaQGP%2FsNq7nkNQE5Rs0wCv6gDdcXn4AfhlQav3QY%2BSYWGWRyHWbARK%2BdxFJF5JtThJInvxGaLOBTfusFLolR8nuNQrf0S%2BNmqqHVNp67%2FjQTLVflmYPMRr3HZmI8kXWE%2FvmtUwasJvEjiOCuu1rsLEjLqlXT58uH%2BS3j93f719%2F%2Bk%2F8N%2Fnf%2Frz4%2F%2FPSse9v4xXaohJCTKnvzo32%2F%2F3r7fQYiw%2BzX1rz9creOzM1jS5xaHW04xPtrsviQh8SlFeTFOslW8jCMcXtW150m8jXzCXmTQUt3mOo43tBLQyr9Jlt3z6YG3WUyrVtk65Hcr2rJC8QHsrRILD4yft0vjbTInD7SDfBriZEmyB4hTM5mKB4nXJEvuab%2BEhDgLbsWPw3yaLqt2NSvoBefGI5gOFb58ph%2BcKcypSc9Id7cKMvJ5g%2FPx31GRFsm8iKOM8wDQoZ0vQ5ymnGtplsTfKxkRmMJuL4IwvIjDOMlfC31EXN%2BqujXuuOYM2nbFxrZcuyVJRnYNmqqEL%2B%2B6fIpySHK5fN41xJtXrRqSbRnP55R2miCVVUOIUNdSY6tSo23n9CQ1el5Yr7xoPm9QCLMVXrxdxAnVq7TyH3mF8fGv6%2BuJaeM1A6polm4q4jUhbhWvZ9v0MLyJgEWx7j1eByGDid9IeEuyYI41IIjDYBnRwpzyhiR6JKSvDKIlLdl16c98MpxZGnDExF3MdeBoz10yW3QJjggI4KhDR2Bp4NF%2BAXjcjwfCLLiK%2FFc1Rk1rQ%2BSUp3JKx6ju9JjKqTFiZ0n2g%2BYfHFKR2cdhlx8NM9whFVn5lQ9psn9OTET%2F2iEdxfksoVfLLCcgV27FT7Uotd%2BjIV814tM1omULOAsdjUZEGqD1ugJac2yivd97bmGj2s%2BU7LzruyTB940GmziIsrTx5E%2Bsop4U1RNL5etIwZPHtacXxRfUk6IaytPniYo6H6LNltLyHeuZf14wMemzjbebG1xcbW5m9GcBHYYWYfKmvIUER6yzxv6mILJhl3Rq4DAkYbxM8Jo1J0lAx8gQQrz3qb5x0JQLdqSMGgIVNxYLYs%2B1uOE73oyPUIsHbWfyftyAYpgB6HDDBd1Y0noDzRsCJ8guyL7y7uz6G7ueIl663DVuXd6XhYiO92uz0OjFinW3vFT26xqTNJG%2FbvzmJ4ESkDwChB4GJbm9BVD3oKQLdhUQQ42AqASZG4pT8xVO3nB75pcGFNHXNptqbSblgTmunbM%2Fuh6l0bS3wd5373VDjTbYJWAVAdSbdHRY5dkOxLUv2QFW2aJ6QlCDVWafzqQ9uqDofrekhfsChnUmRxcVfR4zBg1Ruwovap%2BPlV%2FA65ONKHdO9EbUzEUW6tKIgraooqCLVGDqKhz5gCQK9J8lBH8fkTaoPNzj0QbqUsAYAQg4LRFoX8iiHwQCaqD3rWJBSdw5MPlxuimSN3J%2F7qikAbkyBMGpCkKlvSJgEOyIAdWizMjloUr4OSgPg5pHZplQ8MoO3nBQA0mTkqSxkHi8%2Fec3kZANSjwq9TXQGEmGRl87nUWoVSPpLqH0fAOKKGPJDnYNmr59M8w4269NflLDCiGZVTZqa1qhzsDrNJw7s7Vt5Q0KXqptFUzEgPxoLCvHlPwM4OksK12IvDtVjk5DGryW0gAH9TRMT412nDQ7TG9YS9dT2MHgZYLOgwm6nKaTRjoDujBezr5qvf7%2F8ijlSiEoZBoalKrWUpowVS64dcCH03AAYWuPwx1Ua0NjdOlWz%2BSHNyw%2FWrmAInShc4NevBhiDegRukByMiw4LWNRDcgydS4hcqZOV64GUm2rj7FCcEqMTDJh5XQyRrJgjsN3%2FMY68P1CgEga%2FMCz%2FFGMwnzFnD4XnTPm0mdRmUnrdJGuWAAlFujSqKGG%2FGZnuR9qBP0bScdJfLPcdFhGbC2V%2BLo1o86Ib6va%2BmSIb2lmfr%2FEV4Oz40UdKE58zxkWdWwV8Uc78S3TFSe%2B4w078U1XtYJGS31btnkMe2jqqzHwseKO7UgLEJqEgV5xhzrtpzP1PSACD%2FIGn%2FquQuk%2BE42r5OJvjTv6ROPJsTjMw8ZZoQEH4ViV5l1ndn9r3hsozZtHk44%2FzlF96J6A7OZNta0D%2F6JbPKq2ZiTxnKQtohwzPP%2B%2BzBn%2FxzYLg6gENzn6gdhvbbw2%2FzUpNo016otfXUZFkBjHdWzN0qtOS3WWSkiR%2B4S0lLTYVy3%2BDaalSjU5rhDt81eIeFdlB5u03VwWiwIrea%2BaN4%2FfxOKJL0L8RIL9u1g8%2FZd1uo2Fk%2FlUkiCBIWVBIqB6t%2F3mQHpqpsRY%2FStgQDGoZiNToX6vDhY0nGMyGGsTcSCD0WtvML4EOj8aVE1pEZvixcOgKndAxsMo7EnxF6l9VyCsmr%2FBOOFX0nG2pQJAr4lS0DBPCH7LwR5LfAsaal7UWKmPTEsgPtSEt%2FolPlCDi19WAaWUaeSaLD%2BM1A%2ByII7GyZIz2eLWLLBqXekOedIiUVA8hcYU2VBGQta7JTvJdroI4zu2Az2b4iiKM8y4edM83CYkC8bJEM9I%2BIlSPWc3vEyK0RbMIcnVLSl41Omaqya7Q3cijd1VZgcsGds2%2F4mEs%2FiuaRrmFfTGKk6CH3GU4TA34vx37AhfJh3siLZgrvCsPvX1SedM0ELjsJGeQsKafcb7j3BVmX6AyWXdM%2F39KmmiPL5E9veLgSr%2Bvho4gFLgxxGf80JxA9MU175RD0EAWM7yo0adhD%2BHFs%2BA2%2BmRN5Ja0IT4tLDUmVbQ7EP6WWFpz5E4Azu%2BlQQ89ZiufsAM2HsMlkeDmTTFgXzI2x40eznEUXdrnbbtCaHqDvRse5ot9gydkBaQFgqgodvVpRN2x%2BqMQ4%2FcRvRT6IGpaQuqYAo8eEAd5KXeDd5SPp58bFpPSsKQlISM7W2VBEAHtE3nSkINi56WknAMMRptlRQZTkmUb3tVEnkXFwCRQ0BV4w%2FJegcMauHL9aUjpvkxyg01YTjPURQQAElTHKeiKGXkyato%2FSgKTz43U56UbRWFJ7klltGzooCqf1x8IMtkuNngbPWGaoqU1TCoof%2B8bR7dkbdim355zlm%2Bf%2B4if95NGOTd9Glno1AyVQJRFe7Q2LlVZPSZWoYW6%2F8prOB%2F%2FR%2Buwav%2FAw%3D%3D">form_path.c</a>
+      2.  _printf.c:
+      	   - <a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=_prinft#R5Vltb9s2EP41BrIBNSzJku2PTeJ13bIuQ9qm%2BRTQEi1xoUWFouOXX7%2BjSOrFVBwnmWIgdYFGPJJH8Tnec3dUzztbrD9xlCV%2FsQjTnjuI1j3vvOe6o0kA%2F0vBRgmGk6ESxJxESuRUgiuyxVo40NIliXDeGCgYo4JkTWHI0hSHoiFDnLNVc9ic0eaqGYqxJbgKEbWl1yQSiZKO3VEl%2Fx2TODErO8FE9SyQGax3kicoYquayJv2vDPOmFBPi%2FUZphI7g8v15801vbgLPv3xT36Pvp3%2B%2BfXL9w9K2W%2FPmVJugeNUvFj1Zut9Z1scbX98Pb%2B%2Fn4ym%2FpZ8cLUxHxBdasD0ZsXGIIgjAFQ3GRcJi1mK6LSSnnK2TCMs1xlAqxpzwVgGQgeE%2F2IhNvp0oKVgIErEgupetaZcaMdoT%2BxYj8vZkod4zzhPHzzEYyz2wVHZFfwBswUWfAMTOaZIkIfm2yF9MuNyXIU%2BPGgDPMPOnmWLK3hjyx4V2hK6VUIEvspQsf8VuHAT2TlLhYbdgZ2dxhTluTZULji7K71Cji6PuOyeE0rPGGW8WNaLfDyOhuW0Ws%2FYnXlBUJrxUKs9YC7wugapjbvpHWsX1BzkjHR7VfNoLUpqzjwcvN5Sredk8t68pnWXwYFeM34jp2ld3Hl3DPYqWzjeMY0RWLaYMw6BFGSyKSWDL98uLmxOS9hitswP4LMmKc3HIQ7DNlKajf2hPygtY5HNobZ5nJQ8v0FKnm%2BTUklUdVbyu2KlsYU%2Bx2LJU5CdDH4poWgNJYNnQ48diAijNugnwchDQZfQB814MGyD3n3LgGCy3Rr2N5D17uINOIgmqIiSOIXnEPDAgN%2BpRItA%2BvpRdyxIFCmKwjnZolmhSlorYyQVxT78055%2FLnUBK%2BU61neIvut4TfQdx0J%2F2AK%2B2xn4o58iBDiHZrFOcNSAbKexVPO%2FLN%2F44jaDyurEBIYzufUMh%2BoJtdIUpKWZfMw4C3F%2BQJSYofAuLgz691JQkhqX2I0evvzXRmFB8dP5c02ufh06l7dDbZ7v9n3Lvdygjdz8riz6c6S7zsE51nETXjvJekC3OI1OtPMEVMaYGRSOQSyKwGGSAPqekoCh98IkIOgsDtkJ2DSN9uB9SP3%2BwiK8e7x93%2Balt8Xb9Y5BQ3hNxA85ve%2Fr1k2t53ytNReNjWmksN%2FaJNm8qfdV04qWmdc15RlzPUl5R80oXDu5NiyXZyg1PPc5zZbC5Bi5SStMcmxmwBvUJ9l02aYaMm3QR1%2BrBniaklyqQvtUPZb9II4oxZTFHC1kAYA5AYBl1dDsu6w6nqaXNTaX9m0J0hwH7eV1NJrMBp2W18Nmee220bv%2FpnTjP50GNa9U3SbYxpCLdSw%2FtfTnlK3CBHHRR2nKBHgSS2%2FdWlFI8VyeCIpmmF5CaScHgJirzaoKEPPpA1aFYKdF305eOrGt0WqMrnJS186C9gYDTGdsVY8DhQA6EsbJFpJ8RAv2jT7Kb04gD%2BVFOQktC6r78UYgqIWBKig8EgigUXPPtyF5v92yT5jOyA7meL3CJVNsaQoab9Tux0aFen89qzoVlqLy%2FqD6CNAf1H4mGzB6VUyz9IJ90aY2TF%2BjPPr%2B1rLDxmc2eFAaq6NcQvyK023faKiXus04PMxPQpYWcUTSB%2Fz5tV5N9%2Fv91jz%2FfVw%2B7X4KctrqY2fy%2F9w%2FQbP6vquMW30k96b%2FAQ%3D%3D">_printf.c</a>
+	   3. sec_fuctions.c: In this file we will describe several functions that are hosted, which are:
+	       - <a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=print_number.drawio#R7VrbUuM4EP2aFPAQyvc4j0DCMAM7yxYzy%2FJEybZie5Etj6yQhK9fyZZjK3IuXJLUkOWBklqyLt06p7uldMyLZPqFgCz6AwcQdQwtmHbMQccwen2H%2FeeCWSnQHccsJSGJAyGrBXfxCxRCTUjHcQBzqSPFGNE4k4U%2BTlPoU0kGCMETudsII3nWDIRQEdz5AKnS%2BzigUSl1jV4tv4JxGFUz606%2FbElA1VnsJI9AgCcNkTnsmBcEY1qWkukFRFx5lV7uv87u0c2T8%2BXbX%2Fkv8PP8%2Bsf3v7vlYJev%2BWS%2BBQJT%2Buahh%2Fnj98fzW2A9hVFydZnGD0831dDPAI2FvsRe6axSIAyYPkUVExrhEKcADWvpOcHjNIB8Go3V6j43GGdMqDPhv5DSmTgcYEwxE0U0QaK1nJNPtGCzNRsW%2FXI8Jj5c0U%2BcWApICOkKbdRWZXCAOIGUzNh3BCJA42d5cUCcy3Der9Y9Kwj1v8LKpmKKO7Zgqtij1jZX3SSKKbzLQLH%2FCYOwrNkRTqlQu862dh4ikOfCUDkl%2BGkOCt57fsJ58yhG6AIjTIppzcCGbmDNP2u0uIZnOs7cjJta7RkSCqcNnaqKr1odgUDBQa6oTmo86xVIowaWLe39pmpHjXEQsHFU2LxMvo26V9c%2Fr%2Fu%2FPJteR659O%2BhaO4JNuy3sQ7VFuzp2ZYxVq2zYIu1wZDog4cQU0kJTWhUbNFktwok3ztczmsxRjN4uQRIjzgxXED1DGvughfcAisOUVXxmDUjayY9NGachqzl17Udh%2Fq6l8uHI9aHvt%2FGh59qWrW2RDy1N5sNWQtRaCNH9AEJs34IaRwzT4H%2FXxTQum8rU9u67er8dPb6DzcSntzhm08ytwvApWcWyLHmIko7FV82YemGgeW5QIXFxoJKvlYHOCAGzRreMd8iXL7hva60LXrauxf6G3J8VyhXUx2iu3I1O1vIwQOIAn5M%2FL2l64QY492eErfQxHSceJMfpiXIYGZAzXswI9mG%2BgUPwgP8UFgf0zzFFcQor%2Fljg6xF02vk66PU9bZt8bdoLx81sIYH%2BLklANdVvRwpyzLQ8ndsgZjJ3FDKtWmTDFF%2FTbMyWe8a%2FLECdFrpyEI%2BePMJKRRxVttUQq09wG5oAAQhBhEMCEtYxgyRm6%2BehkNx2WzesddDxFFYXPu8BnAKkt%2FuFJQmj3tvQ6zrbApwaGH9GwG16z2LvE3C6irgDscXylG1ftlDvvKR8EYl8sZakXp618dzG6eNbs7gtkJS7Potzt5TEtRqjfxC4sDfkKHefuFDvtNK5n%2B8WEcFaQEh2eB0ooM4y5l4bKPpOzwTODj23Zezbc%2FcUUzzAXFE3UwOVdarcOHFlxT5AZ6IhiYOghAzM4xfgFUNxY4lkkI1rn3fsAR%2BLoSSvA61tKZ8lIZLyzZ6pKN9q0b2xLd27iu4fWWjsR4AcH3WPTlYGvPtKH7ePCdveNyZarvu%2B48%2BJCVNf8NLVg3hD%2BeYuMaGrMdOnJSRr4Rpr74SkH0Yep1tqkLTi3n9vmZx6jTX3D8dlIsECKU3XTjrV7eORdjBuw%2B4tgKft6aEtwdje04Pqz1VDSC87hvL2V1gpmYb8x0qnI4Qn3Nr0FKQppuzI4fSx%2BdyH4IizIAIeRLeMsXgHJiblZktig2T4DEt%2B22pw5ajcZbc5bXtb2n9lfgeRhydN2ioErCHCJH7BKQWIC9PgjP9KizsW%2FkAX%2B0uea3kFTmP6j6A9Xn7g5VNb1AbTRtNg1qg0LiUH2i74b0nyt8Z0leydr1OmJQNXX4zjNn%2BdMqWBXO1Ua%2FxVrR%2F8VrU4qy39LO3dT0%2BtBqscfuNsl2uSXpvEbXqrA%2FgU8ZLhyg9NhnFqq5z%2FQRETq9a%2FfSwNWf%2BC1Bz%2BBw%3D%3D">print_number</a>
+	       	  - <a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=print_i#R3Vhpc9s2EP01mnEyEw0Pk7Q%2BSrKSpnVbe5zGzScNSEIkapCgQejyr8%2BCBC%2BBOuxazTTyWCIeQBxv9%2B0uObCnyeYTR1n8OwsxHVhGuBnY1wPL8kYufEtgWwKm69olEnESKqwB7skzVqCh0CUJcd4ZKBijgmRdMGBpigPRwRDnbN0dtmC0u2qGIqwB9wGiOvpAQhGX6JXlNfgvmERxtbLpjsqeBFWD1UnyGIVs3YLs2cCecsZEeZVspphK8ipeHj5vH%2BjNo%2Fvp17v8Cf01%2Be3LH18%2FlJN9fMkt9RE4TsWrp34c39zd3q2%2FfH2Ix%2F7s6Sn7aHz7oFhYIbpUfKmzim1FIA6BT9VkXMQsYimiswadcLZMQyyXMaDVjLlhLAPQBPAfLMRWOQdaCgZQLBKqess15UI7NjtyYDUuZ0se4APjlMcKxCMsDrDh1lYFOWCWYMG3cB%2FHFAmy6m4OKb%2BM6nEN93Ch6H%2BBlW3NFPewYaHZo2FbUreOicD3GSrOvwYJd5ldsFQo2k042iSiKM%2BVoXLB2WMtCjm69nDZvSCUThllvFjWDh18FV7Wt7V6rizfdt3ajKdabYW5wJsWpzrxVe%2BVUqCKQVVz3dKzguKWlC%2BNf2%2BpXjfRLaUZqcut1TUK0JzJcckmkjF3uKBsHcRg6yFKUybA11g6l%2FcgSqIUBlK8gDNNKPIxvWU5kQMA5uVZJxkjqcB8tgLe846kNI5PNc9eW1iuTr7TQ77rnIn8y5dFLEx9tm4HqwKAjphx8gzqQFSCaTiWuQbwQCqEBJrFSmHIBt4Q8bcSibz%2BJq%2BHjmpdb1pd19tW4xZzAhxgrrA3jHr73VQ35BHDVdjJQU%2BtcCudsPET2%2FY6mjXdHTWW21d3tdPWzkR1%2Bq3FPzRaH8vuTlvGeG1asC7atoYVksn3b393VaeTW%2BGinLBx45rg13u2o3n2isEN4BEc9jYnFys0pySXu4R2xAfWtLyE7%2FfZPHhX%2B1RLCyB%2F0fXlKqgEOC18cSKDBIGCaaw6EhKGZV7HOXlGfjGVUcWZgkBnMnCu5VyQynOVXs4ZdEZda1jW0NGikDnq8WbrXDnANDVr%2Fc8rp%2F0V0QmVk2n0G%2FDNS6dDu2zZ4nOaLWG%2F44HlokTWRKmfy59SLUHBnEulMnzQkRuJuo%2FAfzEHTDeHY190tdYrsiqhA%2B2IUkwZ5PVECqYV8Tt9rVRwtIIjG1w9Vpl6WbZYYDcI%2Bsqy0Bv5hnFGVZqWV8mwCvKeXhyYV05PdXA2WZ5Qm%2F0Esqwero%2Fr0vqRuqy22bJGUMurzGrpMvExvyDvJG4BcYZ5UGGcBVg%2BwRyTjY%2BCx6iw459LQUm6Tz6O%2FOuTj1t81CNUCy8%2F55TV5U6y6xOV21dyn01Uenz9KUVlnSoq54eKytKs8f6iKP8qZclisJZT0Cenri2OZqCOZLAZOtjrk8zI9WzknlMablcads%2FDqGn9p9LQi%2FZZGh7g%2B5R3Nq988fL2fNs7ocj29LLb66Hbfjnd0GzepJZPVM37aHv2HQ%3D%3D">print_i</a>
+		   4. sec_fuctions.c: In this file we will describe several functions that are hosted, which are:
+		       - <a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=_putchar#R1VfbctowEP0aZtLOhPElNvAYLk0vaZtM2qR9YoQtbDVCcmQZQ76%2BKyTfMCQhDQ%2FlwSMdrW5n96yWjjtarC4ESuKvPMS041jhquOOO47TG%2FjwVcBaA7bvuxqJBAkNVgE35BEb0DJoRkKcNgwl51SSpAkGnDEcyAaGhOB502zOaXPXBEW4BdwEiLbROxLKWKN9p1fhHzGJ4mJn2x%2FokQUqjM1N0hiFPK9B7qTjjgTnUrcWqxGmiryCl7tP6zt6ee9ffL5OH9DP4Zcf325P9WIfDplSXkFgJl%2B99IxdxOfXJL99YLfTWS%2FMBufZqbnrEtHM8GXuKtcFgTgEPk2XCxnziDNEJxU6FDxjIVbbWNCrbC45TwC0AfyDpVyb4ECZ5ADFckHNqN5TbbTls2cubOxSnokAP2FnIlYiEWH5BBv90qsgB8wXWIo1zBOYIkmWzcMhE5dRaVdxDw1D%2FwFedluuuIEDy5Y%2FKrYVdXlMJL5J0Ob%2BOUi4yeycM2lot%2BFqw4iiNDWOSqXg96UolHUZ4Wp4TigdccrFZls39HA%2FPCun1Ub6zsz1%2FdKNL%2FXaEguJVzVO28QXo75RoMlBfdPNa3o2UFyT8pn1757aGSZnz4umya3TdArQnCi7xSpSObc7pzwPYvB1FzHGJcQaZ1M1B1ESMTCkeA53GlI0w%2FSKp0QZACz0XYcJJ0xiMVkC72lDUi2OX%2Bqevb4oWa2R7%2B0g3%2FeORL53WMbCdMbzerLaADAQc0EeQR2IKpCF5%2BqtATxQCiFBy2NaGKqDV0T%2BMiJR7d%2Bq3fVMb7yqDY3Xtc4VFgQ4wMJgb5j19odp25HPOK7AXpz0zA5XKgirOHHtXkOzpYaLJfTxzaz6s7W1kGNti79r1X6O21xW5%2FjWsuBdtK6ZbSST7j%2F%2B9q5e422Fhl6wCuOS4NdHtt%2BK7CWHCRARAs42JSdLNKUkVaeEfiQ6zkg34fs%2BmQbvypiqaQHkL5uxXCSVALNNLA5VkiBQMJ2bgQUJQ%2F2u45Q8otlmKavIMxsCvWHHG6u14ClPzfNyzKTTa3rDcbpeKwvZgx3R7BzrDbDtlrf%2B88ppf0X0gsrJtnY78M1Lp6dOWfOFwDITDLCTXECBdGJrsXQcHy1UiaS%2FgUbtdzulUzzTieABVlXTc8XWDAX30cal3zNJCStksVVJzefYD4JdlVTYG8ws64hCsi2vmZW99mu%2BU0fe0XRktXw3YWHLF4cVva%2BsXN%2Beb9c72%2BK7tyNz9f024e7h9RN0qz%2Bj%2BlGq%2FtK7k78%3D">_putchar</a>
+		       	  - <a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=print_c#R5Vlrb9s2FP01BrICMfSwJPtj7Hhdt2xNkG1pPxm0REtsKFGl6Fd%2B%2FS5F6mXJsZPWDpA5gEMeUnyce8%2B9FN2zJ%2FHmI0dp9CcLMO1ZRrDp2dc9y%2FJGLnxLYKsA03VthYScBBqrgHvyhDVoaHRJApw1OgrGqCBpE%2FRZkmBfNDDEOVs3uy0Ybc6aohC3gHsf0Tb6QAIRKXRoeRX%2BGyZhVMxsuiPVEqOis95JFqGArWuQPe3ZE86YUKV4M8FUklfw8vBp%2B0BvHt2Pv99l39E%2F4z%2F%2B%2FuvfSzXYry95pNwCx4l49dCxl14OPqPxZerN7m7Q18n3b3eXjhp6hehS86X3KrYFgTgAPnWVcRGxkCWITit0zNkyCbCcxoBa1eeGsRRAE8BvWIitdg60FAygSMRUt6o55UQ7NjuwYd0vY0vu42f6aY8ViIdYPMPGoLQqyAGzGAu%2Bhec4pkiQVXNxSPtlWParuIeCpv8FVrZbpriHBYuWPSq2JXXriAh8n6J8%2F2uQcJPZBUuEpt2ErY1DirJMGyoTnD2WopC9Sw%2BXzQtC6YRRxvNp7cDBw2BQPlZrGVpz23VLMx5rtRXmAm9qnLaJL1o9rUAdg4a6uq70XPSIalIeGD9uqU43MVuWahmpya3VNArQnMp%2B8SaUMbe%2FoGztR2DrPkoSJsDXWDKTzyBKwgQ6UryAPY0pmmN6yzIiOwDM1V7HKSOJwHy6At6zhqRaHB9rnr22KFmtke90kO86JyLfelnEwnTO1vVglQPQEDFOnkAdiEowCa5krgHclwohfstiShiygjdEfNEikeWvstx3dO16U2u63tYqt5gT4ABzjf3EqLffTduGPGC4Ajs66OkZbqUTVn5im15Ds6a7o0a1fP1UPW3tDGQZu%2BLvG7WPZTeHVTG%2BNSxYF21r3XLJZPuXvzur08itUFADVm5cEvx6z24ngBWDB8AjOKxtRi5WaEZJJlcJ9ZD3rIkqwveHdOb%2FUvpUTQsgf9H05SKo%2BDjJfXEsgwSBA9OVbohJEKi8jjPyhOb5UEYRZ3ICnXHPuZZjQSrPdHo5ZdDZSQCW1XdaUcgcdXizdaoc4L23g9P%2BA9ERByf3TAen5xZZM8WnJF3Ccq96lotieSJK5pn8J5OsFAvJqXOpVMYcEDcUXdop8jTQiSjFlEG6jqUOaoG80VaL8AcPZmSDi7cls33aWiyw6%2Ftdp63AG80N44RiMwdOM3I77YxvWuc8b43%2BF1pzj9Ta8C215rZMQaCalwCcwdovfJWXCq11ZqWmMQ5KpSENbMKriNcljZHr2cg9ozSsN5eGecS7yDvQxvBIbZhGt%2F3OI45hyxZrDp59YSpFlNlIfROFmp0CKVMPZz6Wb%2ByHRDJH%2FmOY2%2FHzUlCS7MsrjvzrEo%2Bbf%2FSVQQ1XnzOKyrbfXFTtE8V7FFVxQ3tYVdZbqqpYZs0aHy7y150i8ciXn1xfY6mnd5xvBsaR0rBPJo329cs0CZ7h%2B5g7yldeNP58vm2r%2BZ5pj5x%2B8XNHjXK3i%2FFh33v5lRdUq98P1D1C9SuMPf0P">print_c</a>
+			     - <a href="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=print_s.drawio#R7VpbU9s6EP4t5yEzlJkyvsSO80golLaclg7toX1iFFtxdJCtVFZIwq8%2FK99tiSRcHGbCYRiQVrJk7erbXX1yzz6Jlh85mk3%2FZgGmPcsIlj37Q8%2ByBkMX%2FkrBKhOYrmtnkpCTIJdVgityj3OhkUvnJMBJo6NgjAoyawp9FsfYFw0Z4pwtmt0mjDZnnaEQK4IrH1FVek0CMc2knjWo5OeYhNNiZtMdZi0RKjrnK0mmKGCLmsg%2B7dknnDGRlaLlCaZSeYVerj%2BtrunFrfvx8%2FfkD%2Fo5%2BvLj6z%2Fvs8HOHvNIuQSOY%2FHkodn408foy%2FvBbXT66XYaju%2Bvz86Koe8Qnef6ytcqVoUCcQD6zKuMiykLWYzoaSUdcTaPAyynMaBW9blgbAZCE4T%2FYiFW%2BeZAc8FANBURzVuzOeVELZttWHDeL2Fz7uM1%2FfIdKxAPsVijjcqqAAfMIiz4Cp7jmCJB7povh%2FJ9GZb9Kt1DIVf%2FI6xsK6a4ghcWij0qbUvVLaZE4KsZSte%2FAAg3NTthscjVbsLSRiFFSZIbKhGc3ZagkL3LHS6bJ4TSE0YZT6e1Awd7Qb98rNbiWWPbdUszbmu1O8wFXtZ0qiq%2BaHVzBOY%2ByMuriwrPZgHSaQ3LfeP5ptLuE%2FdNoMbdEjX2jlCjndx6Gx5MYwv9eA8gaTcuTMVF1HNGpOdA0fgrlRhff15cqD5tyqLxPNnsz5oeCpzbGYoIlX7hHNM7LIiPNF4PURLGUPHBGJjrXR9MSeIQam5V%2B5Fa%2F31f4w0R9ia%2Bzhu6vofHkw69oWM4DW9oDTTu0NC4Q%2B8F3OGaTdew%2B2kc%2FB%2B4LNdrBi5r%2BNqRyxzsm7v0r%2Bjn%2B9vv5%2BfHZ8NrfuGLy9%2FfALHbuUt3R95y3UvWTEGgmnlJQ7FKU%2Beb0NOEADYBBAMdBIbuwEZdQsDutyHgKBAYahBgd4UAq%2F8aGx60yle%2F5PNHTlH9nQ%2BXVj4sG7VVXusaKKazI6Skjx5zjla1DjNGYpHURr6UgmrzeIPm5nGc1hF3Q39rQ3%2FHcdb1h0L2xtVuK5f%2BdNgXKm%2FifpT%2B7gfm2xmKY2%2BZoXQX9vbulPAwf7HFic3cFdGx7i1rtrhDN5QkEpjgDFwKrz4acyiFspQhlvTsY7XNnyIoG4dREThdFElYxONE%2FoNxQRUHMCi8qSE7H74rzVAzPaSPM1kEQyBKMWUhRxF0nGFOYM3yyNBsu6waNsNyiQtaVAPTyQS7vvYgEQyGY6OKAQr8tt03D9MqVtNbljRLDaaWDqZuVzDdu%2BT0Yb6kidI1geK1UKrSkW10LThs%2FAMzA1eKQBnCAKmpwMyQ1kbs4cHsxn9X5rmHUCufNHXY3AAvlMyyW4MUZ88Igy%2BPr3YY7BtbhsFS%2BOJG9RSj%2FsaJonLQg2hpuU2gSG0RH9HjvCEiQZChDyfkHo3ToST%2B8hQPxnVGkgeCsQBwSeUPu9K%2B1fJutoYm6WuUb3Wl%2B6Gi%2B69sT1U%2FGDRUb3nqmc%2FepepNdd%2FvY2AxNfnfw8zDqzH2av73Voyh7zh8TWuYqjWKZDoN0M%2Bj69vJrudjfbI79py%2B02my26ZiNeHA0%2FiklyDN15hdq3iJEPfPXH5XMDqI5%2FRdVdVlSDthCTqwSOtWt29q0iMdOd7Z8aNwRG8gRLtWi%2FnyvNcN0ZbKiimab977WMrNYHqGj5ah%2FJDpaELZQp74xRGKYybAlbL4pn4ZSPFE2pGiMaaXoHPZAcQ8W2xmGsxP73BmoU4TpuKbqpr2Hd3Od7rS%2FiO%2FaMB0zBb1cJwKoGHKOLlnsUA0pbKDY%2FkFl4SGvL4jvmKy7NYuZciXRPzKYSHLKTuekeVQq%2BhxWVnVKjUq5qUZ8zUbVTXlBtMVsscR5gpj3b5OMdvOMHv%2F%2FCnrYeobhmoM5BlHRu2naC2GzbIYZdjHEvrtWV%2BYb9cbTMcqtXhCBiPAHuHwsjfJQYOOlFxGtobDlLnQBOC9iAjlLVwREawj9dRm6lKkJ8QEqFbfTWaGrr4%2BtU%2F%2FAw%3D%3D">print_s</a>
+
+ - Step 3:  On the computer, you should already have all points c (* .c), the next step is to create a main file, to enter the data will be printed, it is done as follows:
+````
+#include <limits.h>
+#include <stdio.h>
+#include "holberton.h"
+
+/**
+ * main - Entry point
+ *  * Return: Always 0
+ */
+int main(void)
+{
+	int len;
+    int len2;
+    unsigned int ui;
+    void *addr;
+
+    len = _printf("Let's try to printf a simple sentence.\n");
+    len2 = printf("Let's try to printf a simple sentence.\n");
+    ui = (unsigned int)INT_MAX + 1024;
+    addr = (void *)0x7ffe637541f0;
+    _printf("Length:[%d, %i]\n", len, len);
+    printf("Length:[%d, %i]\n", len2, len2);
+    _printf("Negative:[%d]\n", -762534);
+    printf("Negative:[%d]\n", -762534);
+    _printf("Unsigned:[%u]\n", ui);
+    printf("Unsigned:[%u]\n", ui);
+    _printf("Unsigned octal:[%o]\n", ui);
+    printf("Unsigned octal:[%o]\n", ui);
+    _printf("Unsigned hexadecimal:[%x, %X]\n", ui, ui);
+    printf("Unsigned hexadecimal:[%x, %X]\n", ui, ui);
+    _printf("Character:[%c]\n", 'H');
+    printf("Character:[%c]\n", 'H');
+    _printf("String:[%s]\n", "I am a string !");
+    printf("String:[%s]\n", "I am a string !");
+    _printf("Address:[%p]\n", addr);
+    printf("Address:[%p]\n", addr);
+    len = _printf("Percent:[%%]\n");
+    len2 = printf("Percent:[%%]\n");
+    _printf("Len:[%d]\n", len);
+    printf("Len:[%d]\n", len2);
+    _printf("Unknown:[%r]\n");
+    printf("Unknown:[%r]\n");
+    return (0);
+}
+````
+
+ * Step 4: Now. At this point you have all points c (* c), which can be compiled, is as follows:
+
+`gcc -Wall -Werror -Wextra -pedantic *.c`
+
+### Example:
+
+    _printf("Let's try to printf a simple sentence.\n"); --> Let's try to printf a simple sentence.
+
+## Who maintains and contributes to the project
+
+ * Brian Zapata Pino <a href="https://github.com/brian-1989">Github</a>
+ * Victor Cuartas <a href="">Github</a>
