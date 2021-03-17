@@ -7,7 +7,7 @@
 
 void print_p(void)
 {
-	write(1, "%", 1);
+	_putchar('%');
 }
 /**
  * print_c - This function prints a character.
