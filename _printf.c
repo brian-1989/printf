@@ -11,6 +11,11 @@ int _printf(const char *format, ...)
 		{"s", print_s},
 		{"d", print_i},
 		{"i", print_i},
+		{"b", binary},
+		{"o", octal},
+		{"u", print_i},
+		{"x", hexa_lower},
+		{"X", hexa_upper},
 		{"1", print_p},
 		{NULL, NULL},
 	};
