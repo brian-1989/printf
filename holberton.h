@@ -29,6 +29,7 @@ void binary(va_list intgr, int *p_c);
 void octal(va_list intgr, int *p_c);
 void hexa_upper(va_list intgr, int *p_c);
 void hexa_lower(va_list intgr, int *p_c);
+void print_u(va_list intgr, int *p_c);
 int assign_upper(int n);
 int assign_lower(int n);
 int form_path(const char *format, form_s *, va_list a);
